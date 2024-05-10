@@ -26,14 +26,14 @@
     <!--  inicio encabezado de la pagina -->
     <header>
       <!--  menu de navegacion -->
-      <nav>
+      <nav class="menuNav">
         <!--  elementos de lista desordenadas -->
-        <ul>
+        <ul class="listaMenu">
           <li><a href="#">seccion1</a></li>
           <li><a href="#">seccion2</a></li>
           <li>
             <a href="./index.html"
-              ><img src="./assets/logo.png" alt="logo"
+              ><img class="logo" src="./assets/logo.png" alt="logo"
             /></a>
           </li>
           <li><a href="#">seccion3</a></li>
@@ -41,16 +41,16 @@
         </ul>
       </nav>
       <!-- seccion para el banner -->
-      <section>
+      <section class="banner">
         <img src="./assets/banner.jpg" alt="banner" />
       </section>
     </header>
     <!-- inicio del contenido de lla pagina web -->
     <main>
       <!-- seccion informativa 1 -->
-      <section>
-        <h1>Titulo principal</h1>
-        <div>
+      <section class="seccion1">
+        <h1 class="titulo">Titulo principal</h1>
+        <div id="div-video">
           <iframe
             width="560"
             height="315"
@@ -73,18 +73,20 @@
         </div>
       </section>
       <!-- seccion informativa 2 -->
-      <h2>el titulo de mi seccion</h2>
-      <div>
-        <img src="./assets/photo.jpg" alt="imagen repetida" />
-        <img src="./assets/photo.jpg" alt="imagen repetida" />
-        <img src="./assets/photo.jpg" alt="imagen repetida" />
-        <img src=./assets/photo.jpg"" alt="imagen repetida" />
-        <img src="./assets/photo.jpg" alt="imagen repetida" />
-        <img src="./assets/photo.jpg" alt="imagen repetida" />
-      </div>
+      <section class="seccion2">
+        <h2 class="titulo">el titulo de mi seccion</h2>
+        <div class="contenedor-img">
+          <img src="./assets/photo.jpg" alt="imagen repetida" />
+          <img src="./assets/photo.jpg" alt="imagen repetida" />
+          <img src="./assets/photo.jpg" alt="imagen repetida" />
+          <img src="assets/photo.jpg" alt="imagen repetida3" />
+          <img src="./assets/photo.jpg" alt="imagen repetida" />
+          <img src="./assets/photo.jpg" alt="imagen repetida" />
+        </div>
+      </section>
     </main>
     <!--  incio del pie de pagina de la pagina -->
-    <footer>
+    <footer id="footer1">
       <!--  divicion de contenido contactenos -->
       <ol>
         <h3>contáctame</h3>
