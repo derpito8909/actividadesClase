@@ -1,0 +1,113 @@
+<!--  pagina inicial del actividades  -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--  datos para que  funcione  el sitio web pero que no se ve -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="David Esteban Rodriguez" />
+    <meta name="keywords" content="football, england />
+    <meta name="description" content="actividad practica css - flexbox y grid" />
+    <!--  etiqueta para relacionar el archivo de estilos css -->
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!--  etiqueta para relacionar la imagen del logo de la pagina -->
+    <link rel="shortcut icon" href="./assets/logo/logo1.png" type="image/x-icon" />
+
+    <title>practica css avanzado</title>
+  </head>
+  <body>
+    <!--  inicio encabezado de la pagina -->
+    <header>
+      <!--  menu de navegacion -->
+      <nav class="menuNav">
+        <!-- nuestro logo -->
+        <div class="logo">
+          <a href="#">
+            <img class="img-logo" src="./assets/logo/logo1.png" alt="logo" />
+            <p class="p-logo">Premier <span class="span-logo">league</span></p>
+          </a>
+        </div>
+        <!--  elementos de lista desordenadas -->
+        <ul class="listaMenu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Proyecto</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="#">Aliados</a></li>
+          <li><a href="#">Contactenos</a></li>
+        </ul>
+      </nav>
+      <!-- seccion para el banner -->
+      <section class="banner">
+        <img src="./assets/banner.jpg" alt="banner" />
+      </section>
+    </header>
+    <!-- inicio del contenido de lla pagina web -->
+    <main>
+      <!-- seccion de contenido principal -->
+      <section class="contenedorPrincipal">
+        <h1>Historia de la premier league</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, veritatis.</p>
+        <article class="contenedor-imagenes">
+          <div class="imagenes img1">
+            <img src="./assets/images/imagen1.jpg" alt="proyecto" />
+            <div class="parrago-img">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod velit omnis inventore voluptatem excepturi quia laudantium
+                perferendis enim, quam dignissimos aperiam laboriosam, culpa eius voluptatum earum consequuntur accusantium modi!
+              </p>
+            </div>
+          </div>
+          <div class="imagenes img2">
+            <img src="./assets/images/imagen2.jpg" alt="proyecto" />
+            <div class="parrago-img">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod velit omnis inventore voluptatem excepturi quia laudantium
+                perferendis enim, quam dignissimos aperiam laboriosam, culpa eius voluptatum earum consequuntur accusantium modi!
+              </p>
+            </div>
+          </div>
+          <div class="imagenes img3">
+            <img src="./assets/images/imagen1.jpg" alt="proyecto" />
+            <div class="parrago-img">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod velit omnis inventore voluptatem excepturi quia laudantium
+                perferendis enim, quam dignissimos aperiam laboriosam, culpa eius voluptatum earum consequuntur accusantium modi!
+              </p>
+            </div>
+          </div>
+          <div class="imagenes img4">
+            <img src="./assets/images/imagen2.jpg" alt="proyecto" />
+            <div class="parrago-img">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod velit omnis inventore voluptatem excepturi quia laudantium
+                perferendis enim, quam dignissimos aperiam laboriosam, culpa eius voluptatum earum consequuntur accusantium modi!
+              </p>
+            </div>
+          </div>
+          <div class="imagenes img5">
+            <img src="./assets/images/imagen1.jpg" alt="proyecto" />
+            <div class="parrago-img">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quod velit omnis inventore voluptatem excepturi quia laudantium
+                perferendis enim, quam dignissimos aperiam laboriosam, culpa eius voluptatum earum consequuntur accusantium modi!
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- seccion de practica flexbox -->
+      <section class="contenedorflex">
+        <div class="flexHijo">Caja1</div>
+        <div class="flexHijo">Caja2</div>
+        <div class="flexHijo">Caja3</div>
+        <div class="flexHijo">Caja4</div>
+        <div class="flexHijo">Caja5</div>
+      </section>
+    </main>
+    <!--  incio del pie de pagina de la pagina -->
+    <footer id="footer1">
+      <!--  divicion de contenido contactenos -->
+      <p>practica de desarollo creada por &COPY; david rodriguez</p>
+    </footer>
+  </body>
+</html>
