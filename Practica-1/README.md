@@ -4,10 +4,12 @@
 
 ---
 
-###DISEÑO UI - Wireframes
+### DISEÑO UI - Wireframes
+
 ![alt text](assets/wireframe/wireframe.png)
 
 ---
 
-###AUTOR
+### AUTOR
+
 actividad realizada por: david esteban rodriguez pineda © 2024.
