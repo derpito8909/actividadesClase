@@ -1,0 +1,98 @@
+/*  importaciones */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/*  variables */
+:root {
+  --colorFondo: bisque;
+  --colorClaro: rgb(177, 255, 229);
+  --colorEnfasis: rgb(169, 134, 214);
+  --tipografia: "Poppins", sans-serif;
+}
+
+/*  condiciones generales  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--colorFondo);
+  font-family: var(--tipografia);
+  font-size: 25px;
+  overflow-x: hidden;
+}
+/*  header */
+header {
+  height: 100vh;
+  width: 100vw;
+}
+.titulo {
+  height: 150px;
+  width: 100%;
+  background-color: var(--colorEnfasis);
+  display: grid;
+  place-content: center;
+  color: var(--colorFondo);
+}
+/*  contenerdo carusel */
+.contenedor-slider {
+  border: solid 3px var(--colorEnfasis);
+  width: 950px;
+  height: 500px;
+  margin: 50px auto;
+  overflow-x: hidden;
+}
+/*  contenerdor directo */
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /*  nombre que se conecta con el keyframe */
+  animation-name: slide;
+  /*  tiempo de la duracion */
+  animation-duration: 15s;
+  /*  cuantas veces se va repetir la animacion */
+  animation-iteration-count: infinite;
+  /*  forma en que queremos  que se de el movimiento */
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+/* keyframe */
+@keyframes slide {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-300%);
+  }
+}
+/* @keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* @keyframes escala {
+  from {
+    transform: scale(0.4);
+  }
+  to {
+    transform: scale(1.7);
+  }
+} */
+.contenedor-slider img {
+  width: 100%;
+  height: 100%;
+}
+/*  main */
+/*  footer */
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: var(--colorEnfasis);
+  /*  alternativa para center un elemento */
+  display: grid;
+  place-content: center;
+}
