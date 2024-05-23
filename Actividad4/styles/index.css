@@ -1,0 +1,12 @@
+/*  estilos para mi carrusel */
+.miCarrusel {
+  width: 100%;
+  height: 50vh;
+}
+.miCarrusel img {
+  width: 100%;
+  height: 50vh;
+  /* mejorar la vista la imagen */
+  object-fit: cover;
+  object-position: top;
+}
